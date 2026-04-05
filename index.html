@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BBA Main Project | Campus Connect</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav container">
+        <h1 class="logo">Campus Connect</h1>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="menu">
+          ☰
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content container">
+        <p class="badge">BBA Main Project</p>
+        <h2>A Smart Platform for Better Student Engagement</h2>
+        <p>
+          Campus Connect helps colleges improve communication, event planning,
+          and student participation through one easy dashboard.
+        </p>
+        <a class="btn" href="#contact">Request Demo</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="about">
+        <h3>Project Overview</h3>
+        <p>
+          This BBA project explores how digital tools can improve campus
+          administration and student support systems while reducing manual work.
+        </p>
+      </section>
+
+      <section class="section section-alt" id="features">
+        <div class="container">
+          <h3>Key Features</h3>
+          <div class="grid">
+            <article class="card">
+              <h4>Centralized Notices</h4>
+              <p>
+                Send announcements instantly to students, faculty, and clubs.
+              </p>
+            </article>
+            <article class="card">
+              <h4>Event Management</h4>
+              <p>
+                Plan, promote, and track college events from one interface.
+              </p>
+            </article>
+            <article class="card">
+              <h4>Analytics Dashboard</h4>
+              <p>
+                View participation data and improve decision-making with reports.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <h3>Get in Touch</h3>
+        <p>Interested in using this platform for your college project?</p>
+        <form class="contact-form" aria-label="Contact form">
+          <label>
+            Name
+            <input type="text" placeholder="Enter your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="Enter your email" required />
+          </label>
+          <label>
+            Message
+            <textarea rows="4" placeholder="Tell us about your requirement"></textarea>
+          </label>
+          <button type="submit" class="btn">Submit</button>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Campus Connect | BBA Main Project Prototype</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
